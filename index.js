@@ -25,7 +25,7 @@ function sendMessage() {
             buttonIcon.classList.remove('fas', 'fa-spinner', 'fa-pulse');
         }, 2000);
         return;
-    } else if (message === '/beautiful-women-ever') {
+    } else if (message === '/beautifulwomenever') {
         userInput.value = '';
         appendMessage('user', message);
         setTimeout(() => {
