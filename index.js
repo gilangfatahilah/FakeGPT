@@ -25,15 +25,6 @@ function sendMessage() {
             buttonIcon.classList.remove('fas', 'fa-spinner', 'fa-pulse');
         }, 2000);
         return;
-    } else if (message === '/beautifulwomenever') {
-        userInput.value = '';
-        appendMessage('user', message);
-        setTimeout(() => {
-            appendMessage('bot', 'Jelas tidak lain dan tidak bukan adalah kekasih saya sendiri \n Prasanti Dhaniswari.');
-            buttonIcon.classList.add('fa-solid', 'fa-paper-plane');
-            buttonIcon.classList.remove('fas', 'fa-spinner', 'fa-pulse');
-        }, 3000);
-        return;
     }
 
     appendMessage('user', message);
